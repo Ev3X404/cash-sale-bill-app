@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    background-color: rgb(236, 236, 236);
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+button {
+    background-color: #eef4ff;
+    border: none;
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: #6fa2ff;
+    cursor: pointer;
+    border: 1px solid #aac8ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover:not(:disabled) {
+    background: #6fa2ff;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
 }
 
-.App-link {
-  color: #61dafb;
+button:disabled {
+    cursor: auto;
+    color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eef4ff;
+    border: none;
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: #6fa2ff;
+    cursor: pointer;
+    border: 1px solid #aac8ff;
+}
+
+a:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+a:hover:not(:disabled) {
+    background: #6fa2ff;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+
+a:disabled {
+    cursor: auto;
+    color: grey;
 }

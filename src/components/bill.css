@@ -1,0 +1,31 @@
+.deleteButton {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 3px;
+    /* margin-left: 50px; */
+    /* margin-right: 10px; */
+}
+
+.addList {
+    margin: 5px 0px;
+    width: 180vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: ; */
+    background-color: #eef4ff;
+    border-radius: 15px;
+    border: 2px solid #6fa2ff;
+    padding: 0 3rem;
+
+    & .innerBlock {
+        width: 40vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #eef4ff;
+    }
+
+}

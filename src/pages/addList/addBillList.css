@@ -1,0 +1,17 @@
+.Addform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalAmount {
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
+
+.tab-link {
+    width: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
